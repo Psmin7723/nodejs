@@ -1,0 +1,48 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "초기 세팅",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src",
+    "start:dev": "nodemon --exec babel-node src/ src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psmin7723/nodejs.git"
+  },
+  "keywords": [
+    "setting"
+  ],
+  "author": "smpark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Psmin7723/nodejs/issues"
+  },
+  "homepage": "https://github.com/Psmin7723/nodejs#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "http-errors": "^1.8.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.4.0",
+    "koa-send": "^5.0.1",
+    "moment": "^2.27.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
